@@ -1,0 +1,375 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.logo{
+    display:flex;
+    justify-content: center;
+    width: 241%;
+    padding: 6px 50px;
+ 
+}
+.navbar{
+    display:flex;
+    border: 4px white;
+  
+}
+  
+.nav-list{
+    /* width: 15%; */
+    max-width: 150px;
+    background-color:#202020;
+    padding: 0px 583px;
+    border: 1px solid white;
+}
+
+
+.rightnav{
+    width: 50%;
+    background-color:#202020;
+    padding: 38px 0px;
+    border: 1px solid white;
+
+}
+.control{
+    background-color: #202020;
+    border: 2px white;
+    padding: 8px 365px;
+    gap: 137px;
+    display: flex;
+}
+
+.control a{
+    text-decoration:none;
+    color: white;
+    
+}
+.control a:hover{
+    color: rgb(244, 80, 80);
+}
+#search{
+    border: 2px solid grey;
+    border-radius: 1px;
+}    
+.wallpaper{
+    padding: 0px 0px;
+}
+
+.wallpaper img{
+    width: 100%;
+
+}
+
+.ult-over{
+    background-color: #202020;
+    color: white;
+}
+.first{
+    height: 603px;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 50%;
+    margin: auto;
+}
+
+
+.img-fluid{
+    width: 140%;
+    padding: 30px 131px;
+}
+
+.big-text{
+    font-size: 70px;
+
+}
+
+.small-text{
+    font-size: 25px;
+    padding: 28px;
+}
+.poster0{
+    background-color: #202020;
+    color: white;
+    font-size: 71px;
+    padding: 8px 50px;
+}
+.posters{
+    display: flex;
+    background-color: #202020;
+}
+.photo{
+    width: 95%;
+    padding: 13px 9px;
+}
+
+.nextphoto{
+    width: 95%;
+    padding: 48px 0px;
+}
+.thirdphoto{
+    width: 94%;
+    padding: 0px 5px;
+
+}
+.about{
+    color: white;
+    background-color: #202020;
+    width: 100%;
+    display: flex;
+}
+.big-abt{
+    font-size: 60px;
+    width: 1%;
+    padding: 19px 103px
+}
+.small-abt{
+    font-size: 24px;
+    padding: 91px 0px;
+}
+.abt-pic{
+    width: 140%;
+    padding: 30px 131px;
+}
+
+
+
+.footer{
+    background-color: #000000;
+    padding: 0px 577px;
+    border: 1px solid white;
+}
+.footer-logo img{
+    width: 99%;
+    padding: 0px 2px;
+}
+.text-centre{
+    text-align:center;
+    padding: 30px 0;
+    font-family: 'Ubuntu',sans-serif;
+    display:flex;
+    justify-content: center;
+    color: white;
+    background-color: #202020;
+}
+.text-footer{
+    background-color: #202020;
+    color: white;
+    justify-content: center;
+    text-align: center;
+    font-size: 146%;
+
+}
+.marvel{
+    background-color: #202020;
+    color: white;
+    justify-content: center;
+    text-align: center;
+    font-size: 146%;
+}
+
+.social{
+    background-color: black;
+    text-align-last: center;
+    padding: 11px
+    
+}
+.follow{
+    color: white;
+    background-color:black;
+    text-align: center;
+    font-size: 33px;
+}
+.social a{
+    color: white;
+    background-color: black;
+    padding: 0px 11px;
+    
+}
+
+
+.logo{
+    display:flex;
+    justify-content: center;
+    width: 241%;
+    padding: 6px 50px;
+ 
+}
+.tra-navbar{
+    display:flex;
+    border: 4px white;
+  
+}
+  
+.tra-nav-list{
+    width: 15%;
+    background-color:#202020;
+    padding: 0px 583px;
+    border: 1px solid white;
+}
+.trailer{
+    height: 14px;
+    font-size: 24px;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    background-color:black;
+}
+
+.tra-link{
+    width: 100%;
+    text-align: center;
+    background-color: #202020;
+}
+.link{
+    width: 40%;
+    padding: 34px 216px;
+}
+
+
+
+
+
+.Cast{
+    height: 14px;
+    font-size: 24px;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    background-color: black;
+}
+.topcasts{
+    font-size: 33px;
+    color: white;
+    background-color: #202020;
+    padding: 13px 24px;
+}
+
+
+
+
+
+
+
+
+.Pictures{
+    height: 14px;
+    font-size: 24px;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    background-color:black;
+}
+.pictures-top{
+    display:flex;
+    background-color: #202020;
+}
+.img1{
+    width: 93%;
+    padding: 80px 43px;
+}
+.img2{
+    width: 46%;
+    padding: 81px 32px;
+}
+
+.pictures-middle{
+    display:flex;
+
+}
+
+.img3{
+    width: 95%;
+    padding: 50px 11px;
+}
+
+.img4{
+    width: 50%;
+    padding: 12px 9px;
+}
+
+.pictures-last{
+    display:flex;
+    background-color: #202020;
+
+}
+
+.img5{
+    width: 94%;
+    padding: 35px 22px;
+}
+
+.img6{
+    width: 50%;
+    padding: 18px 25px;
+}
+
+.Poster{
+    height: 14px;
+    font-size: 24px;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    background-color:black;
+
+}
+.strange{
+    display: flex;
+
+}
+
+
+.paragraph {
+    padding: 46px 3px;
+    color: white;
+    background-color: #202020;
+}
+
+
+.drstrange{
+    width: 34%;
+    padding: 10px;
+}
+.big{
+    font-size: 29px;
+    
+}
+.small{
+   font-size:17px ;
+}
+.wanda-max{
+    display: flex;
+}
+.wanda{
+    width: 28%;
+    padding: 10px;
+}
+.wong-b{
+    display: flex;
+}
+.wong{
+    width: 14%;
+    padding: 10px;
+}
+
+.xochi{
+    display: flex;
+}
+.gomez{
+    width: 17%;
+    padding: 10px;
+}
+
+.p-s{
+    display: flex;
+}
+.patrick{
+    width: 15%;
+    padding: 10px;
+}
+
+@media only screen and (max-width:500px){}
+
+
+
+    
