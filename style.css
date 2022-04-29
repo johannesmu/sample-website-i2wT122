@@ -2,25 +2,38 @@
     margin: 0%;
     padding: 0%;
 }
+body {
+    background-color: #202020;
+    font-family: "Source Sans Pro", arial, sans-serif;
+    color: #cccccc;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
 .logo{
     display:flex;
     justify-content: center;
-    width: 241%;
+    /* width: 241%; */
     padding: 6px 50px;
- 
+    max-width: 150px;
 }
 .navbar{
     display:flex;
     border: 4px white;
-  
 }
   
 .nav-list{
     /* width: 15%; */
-    max-width: 150px;
+    /* max-width: 150px; */
     background-color:#202020;
-    padding: 0px 583px;
-    border: 1px solid white;
+    /* padding: 0px 583px; */
+    border-bottom: 1px solid #666666;
+    width:100%;
+    display: flex;
+    justify-content: center;
 }
 
 
@@ -34,15 +47,19 @@
 .control{
     background-color: #202020;
     border: 2px white;
-    padding: 8px 365px;
-    gap: 137px;
+    /* padding: 8px 365px; */
+    /* gap: 137px; */
     display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
 }
 
 .control a{
     text-decoration:none;
     color: white;
-    
+    display: block;
+    padding: 10px;
+    font-size: 1.2rem;
 }
 .control a:hover{
     color: rgb(244, 80, 80);
@@ -60,6 +77,16 @@
 
 }
 
+.content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 15px;
+    max-width: 1200px;
+    margin: 50px auto;
+}
+.text {
+    grid-column: span 2;
+}
 .ult-over{
     background-color: #202020;
     color: white;
@@ -114,24 +141,11 @@
 }
 .about{
     color: white;
-    background-color: #202020;
+    grid-column: span 2;
+    /* background-color: #202020;
     width: 100%;
-    display: flex;
+    display: flex; */
 }
-.big-abt{
-    font-size: 60px;
-    width: 1%;
-    padding: 19px 103px
-}
-.small-abt{
-    font-size: 24px;
-    padding: 91px 0px;
-}
-.abt-pic{
-    width: 140%;
-    padding: 30px 131px;
-}
-
 
 
 .footer{
@@ -188,13 +202,13 @@
 }
 
 
-.logo{
+/* .logo{
     display:flex;
     justify-content: center;
     width: 241%;
     padding: 6px 50px;
  
-}
+} */
 .tra-navbar{
     display:flex;
     border: 4px white;
